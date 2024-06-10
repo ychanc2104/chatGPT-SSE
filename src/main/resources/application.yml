@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: openai-demo
+  ai:
+    openai:
+      api-key: sk-xxxx # put your api-key here
+      chat:
+        options:
+          model: "gpt-4o"
+server:
+  port: 8000
